@@ -1,5 +1,5 @@
 body {
-    margin-bottom: 20px;
+
 }
 #panel-sobre-nos { margin-top: 10px; }
 
@@ -25,4 +25,11 @@ h2 { font-weight: bolder; }
 
 #id-radio-pessoa .radio:first-child {
     margin-top: 0px;
+}
+
+footer {
+    background-color: #1d1d1d;
+    color: white;
+    margin-top: 10px;
+    padding: 20px;
 }
