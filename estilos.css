@@ -1,7 +1,18 @@
-#panel-sobre-nos {
-    margin-top: 10px;
+body {
+    margin-bottom: 20px;
+}
+#panel-sobre-nos { margin-top: 10px; }
+
+h2 { font-weight: bolder; }
+
+#titulo-depoimentos {
+    background-color: rgb(59, 140, 245);
+    margin-bottom: 0;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+
 }
 
-h2 {
-    font-weight: bolder;
-}
+
+#carousel-depoimentos img { height: 300px; }
