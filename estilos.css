@@ -1,6 +1,7 @@
 body {
 
 }
+
 #panel-sobre-nos { margin-top: 10px; }
 
 h2 { font-weight: bolder; }
@@ -13,9 +14,6 @@ h2 { font-weight: bolder; }
     text-align: center;
 
 }
-
-
-#carousel-depoimentos img { height: 300px; }
 
 #id-radio-pessoa, #id-select-situacao {
     width: 50%;
@@ -32,4 +30,8 @@ footer {
     color: white;
     margin-top: 10px;
     padding: 20px;
+}
+
+@media screen and (max-width: 500px)  {
+    #carousel-depoimentos img { height: 300px; }
 }
