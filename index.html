@@ -2,12 +2,58 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilos.css">
+
         <title>Document</title>
     </head>
     <body>
-        <h2>Sobre nós</h2>
-        <img src="./img/empresa.jpg" alt="" class="img-responsive">
+        <div class="container">
+            <h2>Sobre nós</h2>
+            <img src="./img/empresa.jpg" alt="" class="img-responsive">
+
+            <div class="panel-group" id="panel-sobre-nos">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" data-toggle="collapse" data-target="#primeiro-paragrafo" data-parent="#panel-sobre-nos">Desde 1935</h3>
+                    </div>
+                    <div id="primeiro-paragrafo" class="collapse in">
+                        <div class="panel-body" >
+                            <p >A TopCasa Fina Arquitetura está no mercado desde... </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" data-toggle="collapse" data-target="#segundo-paragrafo" data-parent="#panel-sobre-nos">Preços acessíveis
+                        </h3>
+                    </div>
+                    <div id="segundo-paragrafo" class="collapse">
+                        <div class="panel-body">
+                            <p>Preços a partir de R$ 1000,00.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title" data-toggle="collapse" data-target="#terceiro-paragrafo" data-parent="#panel-sobre-nos">Alegria em colaborar para um mundo mais bonito
+                        </h3>
+                    </div>
+                    <div id="terceiro-paragrafo" class="collapse">
+                        <div class="panel-body">
+                            <p>Trazendo alegria para a vida das pessoas que tem dinheiro para gastar.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <script src="./jquery.min.js"></script>
+        <script src="./bootstrap/js/bootstrap.min.js"></script>
     </body>
 </html>
