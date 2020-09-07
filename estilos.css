@@ -1,5 +1,32 @@
-body {
+html, body {
+    height: 100%;
+}
 
+header {
+    position: relative;
+    background-image: url(./img/castelo.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 100%;
+}
+
+#header-banner  {
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
+    margin: 0 5%;
+    padding: 10%;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.3s;
+}
+
+h1 { font-weight: bolder; }
+
+
+#header-banner a {
+    width: 100%;
 }
 
 #panel-sobre-nos { margin-top: 10px; }
@@ -12,7 +39,6 @@ h2 { font-weight: bolder; }
     color: white;
     padding: 20px 0;
     text-align: center;
-
 }
 
 #id-radio-pessoa, #id-select-situacao {
