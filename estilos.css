@@ -16,3 +16,13 @@ h2 { font-weight: bolder; }
 
 
 #carousel-depoimentos img { height: 300px; }
+
+#id-radio-pessoa, #id-select-situacao {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#id-radio-pessoa .radio:first-child {
+    margin-top: 0px;
+}
