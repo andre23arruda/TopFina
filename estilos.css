@@ -13,12 +13,12 @@ header {
 #header-banner  {
     background-color: rgba(0, 0, 0, 0.685);
     color: white;
-    margin: 0 5%;
-    padding: 10%;
-    border-radius: 10px;
+    border-radius: 5%;
+    padding: 10px;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
     transition: 0.3s;
 }
 
@@ -31,7 +31,12 @@ h1 { font-weight: bolder; }
 
 #panel-sobre-nos { margin-top: 10px; }
 
+#panel-sobre-nos .panel.panel-default {
+    cursor: pointer;
+}
+
 h2 { font-weight: bolder; }
+
 
 #titulo-depoimentos {
     background-color: rgb(59, 140, 245);
@@ -58,6 +63,14 @@ footer {
     padding: 20px;
 }
 
-@media screen and (max-width: 500px)  {
-    #carousel-depoimentos img { height: 300px; }
+@media screen and (min-width: 964px)  {
+    #header-banner  {
+        top: 50%;
+        left: 30%;
+        transform: translateX(-50%);
+    }
+
+    #header-banner a {
+        width: 40%;
+    }
 }
